@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conditional and Looping JS</title>
+</head>
+<body>
+    <script>
+        //for loop starts
+        for (var i=1;i<=100;i++) {
+            //if.. else.. condition starts
+            if(i%3==0 && i%5==0) //if "i" will completely divisible by both 3 and 5
+                console.log(i + " Fizz" + "Buzz"); //it'll print this in browser console.
+            else if(i%3==0)     //if "i" will completely divisible by 3
+                console.log(i + " Fizz");          //it'll print this in browser console.
+            else if (i%5==0)    //if i will completely divisible by both 3 and 5
+                console.log(i + " Buzz");          //it'll print this in browser console.
+            else                //if none of the above cases are true
+                console.log(i);                    //it'll print this in browser console
+        }
+        //for loop end when i will equal to 100
+    </script>
+</body>
+</html>
