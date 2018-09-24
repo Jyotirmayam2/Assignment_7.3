@@ -2,4 +2,4 @@
 conditionals and loops
 
 #link
-https://jyotirmayam2.github.io/Assignment_7.3/
+https://jyotirmayam2.github.io/Assignment_7.3/conditional_loop_js.html
